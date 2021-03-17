@@ -1,0 +1,35 @@
+body {
+  --padding-top: 2rem;
+  background-color: whitesmoke;
+}
+
+.opacity90 {
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+.rounded-25 {
+	border-radius: 25px;
+}
+
+.h-500 {
+	min-height: 500px;
+}
+
+.bg-img1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.size1 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wsize1 {
+  max-width: 100%;
+  width: 880px;
+}
+
+
