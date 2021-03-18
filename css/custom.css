@@ -13,14 +13,17 @@
 
 .customcard {
 	border-radius: 25px;
-	--max-width: 880px;
+	max-width: 800px;
+	margin: 0 auto; 
 	min-height: 70vh;
 	opacity: 0.9;
 	filter: alpha(opacity=90); /* For IE8 and earlier */
-	--background-image:url('../images/bg02.jpg');
-	--background-size: 25%;
-	--background-position: center;
-	--background-repeat: no-repeat;
 }
 
+/*mobile devices*/
+@media only screen and (max-width: 576px) {
+    #cntr {
+        background-image: url('../images/bg02.jpg');
+    }
+}
 
