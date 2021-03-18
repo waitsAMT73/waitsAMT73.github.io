@@ -21,7 +21,10 @@
 }
 
 /*mobile devices*/
-@media only screen and (max-width: 576px) {
+#cntr {
+    background-image: url('../images/bg01.jpg');
+}
+@media screen and (max-width: 576px) {
     #cntr {
         background-image: url('../images/bg02.jpg');
     }
